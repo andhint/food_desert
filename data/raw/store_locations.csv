@@ -1,0 +1,32 @@
+id,type,store_name,shop_type,store_lat,store_lon,full_address,produce,price
+264775884,node,,convenience,42.8995073,-78.8788701,,False,2
+265837170,node,Holly Farms,convenience,42.8995639,-78.8787798,,False,3
+414392643,node,Lexington Co-op,organic,42.9191243,-78.8767071,,True,3
+566210891,node,Dash's Market,supermarket,42.9478503,-78.8426688,,True,3
+629520975,node,Save-a-Lot,supermarket,42.9587374,-78.8789928,,True,2
+714220178,node,Clinton Street Mini-Mart,convenience,42.8719731,-78.8070933,,False,3
+768716991,node,Allentown Trading Post,convenience,42.8991878,-78.8736134,,False,1
+768721742,node,Bill's Food Mart,convenience,42.8992851,-78.8712879,,False,3
+819190147,node,Wilson Farms,convenience,42.9052861,-78.8775305,,False,3
+927331267,node,Wilson Farms,supermarket,42.9184739,-78.8772101,,True,2
+927332730,node,Globe Market,supermarket,42.9178485,-78.8774729,,True,2
+1183820608,node,7-Eleven,convenience,42.9588194,-78.8452354,,False,2
+1386869696,node,Tops Markets,supermarket,42.858356,-78.8303111,,True,2
+1461995710,node,Wilson Farms,convenience,42.8496488,-78.8148005,,False,2
+1462001095,node,Rite Aid,convenience,42.8412869,-78.8089533,,False,3
+1892277134,node,Aldi,supermarket,42.948976,-78.8288996,"3060 Main Street Buffalo, NY 14221",True,1
+1978627974,node,Guercio & Sons,supermarket,42.9207792,-78.8904671,,True,2
+3085720842,node,TOPS,supermarket,42.9600159,-78.8172394,,True,1
+4196968701,node,Community Food & Meat Market,supermarket,42.90412,-78.8164843,"535 Walden Avenue Buffalo, NY 14211",True,3
+84831663,way,Wegmans,supermarket,42.9386877,-78.882361,,True,1
+84831664,way,Tops,supermarket,42.9363848,-78.8914557,,True,2
+90896358,way,Broadway Market,supermarket,42.8921685,-78.8376173,,True,1
+91506650,way,Tops,supermarket,42.9601051,-78.817152,,True,3
+112411973,way,Tops,supermarket,42.8986845,-78.809667,,True,3
+166463978,way,,convenience,42.9445956,-78.9078537,,False,2
+220181536,way,Tops Markets,supermarket,42.8963062,-78.8865117,,True,3
+262289094,way,Tops Markets,supermarket,42.9552304,-78.8760137,,True,1
+262377042,way,7-Eleven,convenience,42.9377224,-78.8501153,,False,3
+418084079,way,ALDI,supermarket,42.9544478,-78.8799941,,True,2
+478465553,way,Price Rite,supermarket,42.9037783,-78.8781165,,True,2
+487902450,way,,convenience,42.9609841,-78.8882086,,False,2
