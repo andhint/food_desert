@@ -53,3 +53,5 @@ df['price'] = np.random.choice([1, 2, 3], len(df))
 
 # write to csv
 df.to_csv('data/raw/store_locations.csv', index=False)
+
+df.to_json('data/raw/store_locations.json', orient='index')

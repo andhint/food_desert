@@ -34,6 +34,12 @@ def number_within_radius(grid_square, stores, radius):
 
 grid['number_options'] = grid.apply(number_within_radius, stores=stores, radius=1, axis=1)
 grid['number_options_produce'] = grid.apply(number_within_radius, stores=stores[stores['produce']==True], radius=1, axis=1)
+grid['grid_index'] = grid.index
+
+# trim to buffalo
+buffalo = gpd.read_file('data/raw/buffalo_municipal_boundary.geojson')
+grid = gpd.sjoin(grid, buffalo, how='inner', op='intersects')
 
 # write to file
-grid[['geometry', 'number_options', 'number_options_produce']].to_file('data/processed/food_index.geojson', driver='GeoJSON')
+grid[['geometry', 'number_options', 'number_options_produce', 'grid_index']].to_file('data/processed/food_index.geojson', driver='GeoJSON')
+grid[['grid_index', 'number_options', 'number_options_produce']].to_csv('data/processed/food_index_scores.csv', index=False)
