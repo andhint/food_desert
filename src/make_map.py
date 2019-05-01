@@ -3,12 +3,6 @@ import pandas as pd
 
 map=folium.Map(location=[42.8864, -78.8784], zoom_start=12)
 
-# folium.GeoJson(
-#     'data/processed/food_index.geojson',
-#     name='geojson',
-#     style_function=lambda x: {'fillColor':'green' if x['properties']['number_options'] == 1 else 'orange'}
-# ).add_to(map)
-
 scores = pd.read_csv('data/processed/food_index_scores.csv')
 
 folium.Choropleth(
@@ -25,3 +19,4 @@ folium.Choropleth(
 ).add_to(map)
 
 map.save(outfile='data/processed/map.html')
+map.save(outfile='docs/map.html')
